@@ -3,6 +3,16 @@
 // Check the wiki for a full description of the configuration:
 // https://niri-wm.github.io/niri/Configuration:-Introduction
 
+workspace "9"
+workspace "8"
+workspace "7"
+workspace "6"
+workspace "5"
+workspace "4"
+workspace "3"
+workspace "2"
+workspace "1"
+
 // Input device configuration.
 // Find the full list of options on the wiki:
 // https://niri-wm.github.io/niri/Configuration:-Input
@@ -506,24 +516,24 @@ binds {
     //
     // For example, with 2 workspaces + 1 empty, indices 3, 4, 5 and so on
     // will all refer to the 3rd workspace.
-    Mod+1 { focus-workspace 1; }
-    Mod+2 { focus-workspace 2; }
-    Mod+3 { focus-workspace 3; }
-    Mod+Q { focus-workspace 4; }
-    Mod+W { focus-workspace 5; }
-    Mod+E { focus-workspace 6; }
-    Mod+A { focus-workspace 7; }
-    Mod+S { focus-workspace 8; }
-    Mod+D { focus-workspace 9; }
-    Mod+Shift+1 { move-column-to-workspace 1; }
-    Mod+Shift+2 { move-column-to-workspace 2; }
-    Mod+Shift+3 { move-column-to-workspace 3; }
-    Mod+Shift+Q { move-column-to-workspace 4; }
-    Mod+Shift+W { move-column-to-workspace 5; }
-    Mod+Shift+E { move-column-to-workspace 6; }
-    Mod+Shift+A { move-column-to-workspace 7; }
-    Mod+Shift+S { move-column-to-workspace 8; }
-    Mod+Shift+D { move-column-to-workspace 9; }
+    Mod+1 { focus-workspace "1"; }
+    Mod+2 { focus-workspace "2"; }
+    Mod+3 { focus-workspace "3"; }
+    Mod+Q { focus-workspace "4"; }
+    Mod+W { focus-workspace "5"; }
+    Mod+E { focus-workspace "6"; }
+    Mod+A { focus-workspace "7"; }
+    Mod+S { focus-workspace "8"; }
+    Mod+D { focus-workspace "9"; }
+    Mod+Shift+1 { move-column-to-workspace "1"; }
+    Mod+Shift+2 { move-column-to-workspace "2"; }
+    Mod+Shift+3 { move-column-to-workspace "3"; }
+    Mod+Shift+Q { move-column-to-workspace "4"; }
+    Mod+Shift+W { move-column-to-workspace "5"; }
+    Mod+Shift+E { move-column-to-workspace "6"; }
+    Mod+Shift+A { move-column-to-workspace "7"; }
+    Mod+Shift+S { move-column-to-workspace "8"; }
+    Mod+Shift+D { move-column-to-workspace "9"; }
 
     // Alternatively, there are commands to move just a single window:
     // Mod+Ctrl+1 { move-window-to-workspace 1; }
